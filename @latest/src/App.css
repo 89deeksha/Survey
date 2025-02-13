@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+}
+.welcm{
+  color: white;
+  width: 90%;
+    max-width:570px ;
+    background:linear-gradient(135deg,#00feba,#5b548a);
+    margin:100px auto 80px ;
+    border: 40px solid black;
+    padding: 80px 35px;
+    text-align: center;
+    border-radius: 30px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  text-align: center;
+  
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg,#00febf,#5b548a);
+  border-radius: 30px;
+  padding-bottom: 2vw;
+  
+  
+  
+}
+.start-wlcm{
+  border:none;
+  outline: none;
+  
+  padding: 20px 70px;
+  justify-content: center;
+  background: #ff5945;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin: auto;
+  font-weight: 700;
+  
+  
+  border-radius: 40px;
+}
+
+.survey-heading{
+  
+
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+  
+}
+.survey-ques{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: lightblue;
+  border-radius: 20px;
+  padding: 90px;
+  max-width: 700px;
+  margin: 80px auto;
+}
+.q-1{
+  color: black;
+}
+.page-no{
+    display: flex;
+    width:40vw;
+    height: 3vw;
+  
+font-size: 2vw;
+    justify-content: end;
+}
+.ques{
+  display: flex;
+  margin-top: 2vw;
+  gap:1vw;
+  align-items: center;
+  font-size: 2vw;
+}
+.rating{
+display: flex;
+gap: 1vw;
+padding: 2vw;
+}
+.option{
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-front{
+  display: flex;
+  gap:5vw
+}
+.btn-1{
+  width:10vw;
+  height: 3vw;
+  background-color: blue;
+  border-radius: 1vw;
+  color:white ;
+  border: none;
+}
+.btn-2{
+  width:8vw;
+  height: 3vw;
+  background-color: rgb(206, 15, 235);
+  border-radius: 1vw;
+  color:white;
+  border: none;
+}
