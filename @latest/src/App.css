@@ -93,6 +93,7 @@ font-size: 2vw;
 }
 .rating{
 display: flex;
+
 gap: 1vw;
 padding: 2vw;
 }
@@ -117,11 +118,31 @@ padding: 2vw;
   color:white ;
   border: none;
 }
-.btn-2{
+.btn-2, .btn-3{
   width:8vw;
   height: 3vw;
   background-color: rgb(206, 15, 235);
   border-radius: 1vw;
   color:white;
   border: none;
+}
+
+.submit-btn-container{
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+textarea{
+  width: 30vw;
+  height: 10vw;
+  caret-color: red;
+  border-radius: 1vw;
+  text-align: start;
+  animation: blink 1s step-start infinite;
+  padding: 10px;
+  font-size: 1vw;
+  caret-shape: block;
 }
